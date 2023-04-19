@@ -1,0 +1,24 @@
+/*
+Theme Name: Portefolio Theme
+Author: DCoppee
+Version: 1.0
+*/
+.menu {
+    position: fixed;
+    top: 0px;
+}
+
+
+.admin-bar .menu {
+    top: 32px; /* on prend en compte le décalage */
+}
+
+.banner {
+    width: 100%;
+}
+h1 {
+    background: linear-gradient(to right, violet, indigo, blue, green, yellow, orange, red);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
